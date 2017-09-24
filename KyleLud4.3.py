@@ -29,8 +29,9 @@ while yearsCount < years:
 
 N = yearsCount * 12
 average = totalRainYears / N
-round(average, 2)
+round(average,2)
 
-print("Yearcount = ", yearsCount)
-print("totalRainYears = ", totalRainYears , "End of Stream")
-print(average, "is the average rainfall per month")
+# print("Yearcount = ", yearsCount) # Testing purposes
+print("Total number of months = ", N)
+print("TotalRainfall = ", totalRainYears)
+print("The Average Rainfall Per Month",average)
